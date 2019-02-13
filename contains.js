@@ -8,5 +8,6 @@ const contains = (arr) => {
   }
   return false;
 };
-console.log(randomArr.generateArray());
-console.log(contains(randomArr.generateArray()));
+let kiscica = randomArr.generateArray()
+console.log(kiscica);
+console.log(contains(kiscica));
