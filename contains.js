@@ -1,12 +1,12 @@
-let fullArr = require("./generateArray.js");
+let randomArr = require("./generateArray.js");
 
 const contains = (arr) => {
-  for (let i = 0; i < 10; i++) {
+  for (let i = 0; i < arr.length; i++) {
     if (arr[i] === 90) {
       return true;
     }    
   }
   return false;
 };
-console.log(fullArr.arrfill());
-console.log(contains(fullArr.arrfill()));
+console.log(randomArr.arrfill());
+console.log(contains(randomArr.arrfill()));
